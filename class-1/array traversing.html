@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Array traversing</title>
+      
+</head>
+<body>
+      <h4>Traversing your Data</h4>
+
+
+
+
+
+
+      <script>
+        let data = [1,4,5,12,11,23,44,55,88,10,21 ,"abcd"]
+        // for(let i=0;i<data.length;i++){
+        
+        //       document.write(` array ${i} is ${data[i]} <br>`)
+        // }
+        //    accessing values
+
+        //   let fruits = ["apple","mango","peach","chekou","blackberry","Strawberry","cherry","Orange"];
+        //    let x = 5;
+        // 
+        //     document.write(fruits[x])
+
+           function getelement(){
+                let el = document.querySelector('#Element').value;
+               if(el <= data.length){
+                alert(` the index ${el} is ${data[el]}`)
+               }
+               else{
+                  alert('This index is not found!')
+               }
+           }
+  </script>
+
+      <input type="text" id="Element">
+      <button onclick="getelement()">Get Element</button>
+</body>
+</html>
