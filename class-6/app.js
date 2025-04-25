@@ -4,7 +4,7 @@
   let data = [20,30,40,50,60,70,1000,300,500];
   let data2 = [30,50,20,10,6,70,99,200];
   let data3 =[];
-  for(let i=0 ;i<data.length;i++){
+  for(let i=0;i<data.length;i++){
       data3[i]=data[i]
       
   }
@@ -14,7 +14,7 @@
    console.log(data3);
 
 
-      let dummy = [100,200,300,400,500,600,700,800];
+      let dummy = [1,2,3,4,5,6,7,8,9,10];
       dummy.reverse();
       console.log(dummy);
 
